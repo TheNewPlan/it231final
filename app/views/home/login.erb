@@ -1,0 +1,6 @@
+<p>Login</p>
+<%= form_tag :action => 'login' do %>
+    Username : <%= text_field_tag 'username', @myUser %><br>
+    Password: <%= password_field_tag 'password', nil, maxlength: 12 %><br>
+<%= submit_tag 'login' %>
+<% end %>

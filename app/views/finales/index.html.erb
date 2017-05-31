@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+<h3>Finales</h3>
+<p> This is the database from the seed file.</p>
+<p> Sorting views are under the Browse tab.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Series</th>
+      <th>Viewership</th>
+      <th>Rating</th>
+      <th>Share</th>
+      <th>Date</th>
+      <th>Network</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @finales.each do |finale| %>
+      <tr>
+        <td><%= finale.series %></td>
+        <td><%= finale.viewership %></td>
+        <td><%= finale.rating %></td>
+        <td><%= finale.share %></td>
+        <td><%= finale.date %></td>
+        <td><%= finale.network %></td>
+        <td><%= link_to 'Show', finale %></td>
+        <td><%= link_to 'Edit', edit_finale_path(finale) %></td>
+        <td><%= link_to 'Destroy', finale, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Finale', new_finale_path %>

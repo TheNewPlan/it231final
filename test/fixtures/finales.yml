@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  series: MyString
+  viewership: 1.5
+  rating: 1.5
+  share: 1
+  date: 2017-05-28
+  network: MyString
+
+two:
+  series: MyString
+  viewership: 1.5
+  rating: 1.5
+  share: 1
+  date: 2017-05-28
+  network: MyString

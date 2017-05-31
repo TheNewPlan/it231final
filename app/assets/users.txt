@@ -1,0 +1,4 @@
+username	password	email	watched
+bodonnell	password123	bodonnell@bod.com	
+pullathomas	github	pullathomas@github.com
+bodonne3	depaul	bodonne3@depaul.edu

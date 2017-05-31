@@ -1,0 +1,24 @@
+<p><%= link_to "Series Finales", browse_browse_path %></p>
+<p>
+<table>
+  <tr>
+    <th><%= link_to "Series", browse_seriessort_path%></th>
+    <th><%= link_to "Viewership", browse_viewershipsort_path%></th>
+    <th><%= link_to "Household Rating", browse_ratingsort_path%></th>
+    <th><%= link_to "Share", browse_sharesort_path%></th>
+    <th><%= link_to "Date", browse_datesort_path%></th>
+    <th><%= link_to "Network", browse_networksort_path%></th>
+    <th colspan="3"></th>
+  </tr>
+  <% @finales.each do |d| %>
+      <tr>
+        <td><%= d.series %></td>
+        <td><%= d.viewership %></td>
+        <td><%= d.rating %></td>
+        <td><%= d.share %></td>
+        <td><%= d.date %></td>
+        <td><%= d.network %></td>
+      </tr>
+  <% end %>
+</table>
+</p>

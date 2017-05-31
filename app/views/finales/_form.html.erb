@@ -1,0 +1,47 @@
+<%= form_for(finale) do |f| %>
+  <% if finale.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(finale.errors.count, "error") %> prohibited this finale from being saved:</h2>
+
+      <ul>
+      <% finale.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :series %>
+    <%= f.text_field :series %>
+  </div>
+
+  <div class="field">
+    <%= f.label :viewership %>
+    <%= f.text_field :viewership %>
+  </div>
+
+  <div class="field">
+    <%= f.label :rating %>
+    <%= f.text_field :rating %>
+  </div>
+
+  <div class="field">
+    <%= f.label :share %>
+    <%= f.number_field :share %>
+  </div>
+
+  <div class="field">
+    <%= f.label :date %>
+    <%= f.date_select :date %>
+  </div>
+
+  <div class="field">
+    <%= f.label :network %>
+    <%= f.text_field :network %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

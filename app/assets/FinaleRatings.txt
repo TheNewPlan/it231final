@@ -1,0 +1,98 @@
+﻿Series	Viewership	Household rating	Share	Date	Network
+MASH	105.93	60.23	773	February 28, 1983	CBS3
+Cheers	84.420	45.50	6417	20-May-93	NBC
+Seinfeld	76.320	41.30	58	14-May-98	NBC
+Friends	65.919	35.60	52	6-May-04	NBC
+"Magnum, P.I."	50.7	32.00	48	1-May-88	CBS
+The Tonight Show Starring Johnny Carson	50.020	30.00	46	22-May-92	NBC
+The Cosby Show	44.420	28.00	45	30-Apr-92	NBC
+All in the Family	40.22021	26.60	43	8-Apr-79	CBS
+Family Ties	36.3	20.80	35	14-May-89	NBC
+Home Improvement	35.522	21.623	4322	25-May-99	ABC
+Frasier	33.724	16.30	25	13-May-04	NBC
+Dallas	33.3	22.00	38	3-May-91	CBS
+Everybody Loves Raymond	32.924	20.20	29	16-May-05	CBS
+Star Trek: The Next Generation	31.025	17.40	34	23-May-94	Syndication
+Gunsmoke	30.921	N/A	N/A	31-Mar-75	CBS
+Happy Days	30.5	20.50	31	24-Sep-84	ABC
+The Golden Girls	27.2	18.90	38	9-May-92	NBC
+Full House	24.3	14.60	25	23-May-95	ABC
+St. Elsewhere	22.521	17	29	25-May-88	NBC26
+MacGyver	22.3	13.80	26	21-May-92	ABC
+L.A. Law	22.1	15.90	27	19-May-94	NBC
+ALF	21.7	13.10	24	24-Mar-90	NBC
+The Mary Tyler Moore Show	21.16	16.50	28	19-Mar-77	CBS
+The Wonder Years	21	13.90	23	12-May-93	ABC
+Quantum Leap	20.6	13.70	23	5-May-93	NBC
+Who's the Boss?	20.5	12.70	24	25-Apr-92	ABC
+The Fresh Prince of Bel-Air	19.9	13.10	22	20-May-96	NBC
+Mad About You	19.8	13.60	20	24-May-99	NBC
+Knots Landing	19.6	13.90	22	13-May-93	CBS
+Bonanza	19.321	 ?	 ?	16-Jan-73	NBC
+Designing Women	18.8	14.20	22	24-May-93	CBS
+Matlock	18.7	13.20	20	7-May-95	ABC
+Will & Grace	18.6	12.90	20	18-May-06	NBC
+The Facts of Life	18.2	13.20	29	7-May-88	NBC
+Jake and the Fatman	18.1	12.90	20	6-May-92	CBS
+Major Dad	17.9	12.60	20	16-Apr-93	CBS
+Murphy Brown	17.5	12.30	19	18-May-98	CBS
+"Beverly Hills, 90210"	16.8	11.90	21	17-May-00	Fox
+Roseanne	16.6	11.60	19	20-May-97	ABC
+"Murder, She Wrote"	16.5	12.30	21	19-May-96	CBS
+The Oprah Winfrey Show	16.404	11.50	N/A	25-May-11	Syndication
+ER	16.4	10.40	17	2-Apr-09	NBC
+NYPD Blue	16.1	10.40	17	1-Mar-05	ABC
+Miami Vice	16.1	11.00	21	28-Jun-89	NBC
+Perfect Strangers	15.8	11.80	16	6-Aug-93	ABC
+Married... with Children	15.2	10.00	16	5-May-97	Fox
+In the Heat of the Night	15	10.90	17	16-May-95	CBS
+Kate & Allie	14.9	11.90	20	22-May-89	CBS
+Dynasty	14.7	10.80	17	11-May-89	ABC
+The Tonight Show with Jay Leno	14.6	-	-	6-Feb-14	NBC
+Monday Night Football	14.427	9.20	16	26-Dec-05	ABC
+Wings	14.2	10.20	16	21-May-97	NBC
+JAG	14.028	9.00	15	29-Apr-05	CBS
+Mr. Belvedere	13.8	8.50	16	8-Jul-90	ABC
+The Late Show with David Letterman	13.76	9.30	-	20-May-15	CBS
+Lost	13.6	7.50	13	23-May-10	ABC
+Evening Shade	13.5	9.60	15	23-May-94	CBS
+Two and a Half Men	13.5	-	N/A	19-Feb-15	CBS
+The King of Queens	13.5	8.80	13	14-May-07	CBS
+"Doogie Howser, M.D."	13.4	9.20	14	24-Mar-93	ABC
+American Idol	13.329	9.60	15	7-Apr-16	Fox
+Providence	13.3	9.00	16	20-Dec-02	NBC
+Life Goes On	13.2	8.90	17	23-May-93	ABC
+The X-Files	13.230	7.90	12	19-May-02	Fox
+How I Met Your Mother	13.13	8.60	13	31-Mar-14	CBS
+Coach	13.1	9.30	16	14-May-97	ABC
+Touched by an Angel	12.931	8.90	15	27-Apr-03	CBS
+Amen	12.9	8.30	19	11-May-91	NBC
+Falcon Crest	12.3	9.30	15	17-May-90	CBS
+CSI: Crime Scene Investigation	12.2	N/A	N/A	27-Sep-15	CBS
+Desperate Housewives	11.9	9.00	14	13-May-12	ABC
+3rd Rock from the Sun	11.9	7.90	13	22-May-01	NBC
+The Sopranos	11.9	6.50	11	10-Jun-07	HBO
+Empty Nest	11.6	8.70	17	29-Apr-95	NBC
+Ally McBeal	11.5	7.50	11	20-May-02	Fox
+Homicide: Life on the Street	11.4	8.40	15	21-May-99	NBC
+Without a Trace	11.2	7.30	12	19-May-09	CBS
+The Nanny	11.1	8.10	14	12-May-99	CBS
+Picket Fences	11.1	8.20	14	24-Apr-96	CBS
+The Practice	10.9	7.50	13	16-May-04	ABC
+"Walker, Texas Ranger"	10.8	6.80	13	19-May-01	CBS
+Judging Amy	10.8	7.60	12	3-May-05	CBS
+Sex and the City	10.632	 ?	 ?	22-Feb-04	HBO
+Becker	10.6	7.30	11	28-Jan-04	CBS
+The Good Wife	10.6	TBA	TBA	8-May-16	CBS
+Grace Under Fire	10.5	7.40	11	17-Feb-98	ABC
+Highway to Heaven	10.5	7.10	16	4-Aug-89	NBC
+Melrose Place	10.4	7.30	12	24-May-99	Fox
+Twin Peaks	10.4	N/A	N/A	10-Jun-91	ABC
+Breaking Bad	10.28			29-Sep-13	AMC
+"Dr. Quinn, Medicine Woman"	10.2	6.70	15	16-May-98	CBS
+Sisters	10.1	7.10	14	4-May-96	NBC
+The West Wing	10.1	6.20	10	14-May-06	NBC
+The Mentalist	10.1	 	 	18-Feb-15	CBS
+That '70s Show	10	6.00	10	18-May-06	Fox
+Boy Meets World	10	6.10	12	5-May-00	ABC
+Cold Case	10	6.40	11	2-May-10	CBS
