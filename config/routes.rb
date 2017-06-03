@@ -29,7 +29,6 @@ Rails.application.routes.draw do
   get 'browse/search'
   get 'browse/sort'
 
-  resources :sessions
   resources :finales
   resources :users
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

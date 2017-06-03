@@ -1,7 +1,7 @@
-require 'digest/MD5'
+require 'digest/md5'
 REALM = "localhost"
 class HomeController < ApplicationController
-  skip_before_filter :authorize, except: [:index, :login]
+  skip_before_filter :authorize
   def index
     @username = ''
     @password = ''
@@ -47,6 +47,7 @@ class HomeController < ApplicationController
     if !userid.nil?
       user = User.where('id = ?', userid)[0]
       redirect_to home_user_path, :notice => "Welcome to your page, "+user.username
+
     else
       if !params[:username].nil?
 
