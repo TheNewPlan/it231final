@@ -5,6 +5,7 @@ Written by Matt Hallowell
 This is my remote repository to keep track of my final project work.
 
 Deliverables:
+
     Users Model [x]
   
     Database Seeding [x]
