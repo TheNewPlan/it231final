@@ -9,12 +9,10 @@ Rails.application.routes.draw do
   get 'home/removeFinales'
 
   post 'home/login'
-  post 'home#index'
   post 'home/index'
   post 'home/user'
   post 'home/saveList'
   post 'home/removeFinales'
-
 
   get 'search/search'
   post 'search/search'
