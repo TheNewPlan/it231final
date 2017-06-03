@@ -7,14 +7,14 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 require 'csv'
-
+REALM = "localhost"
 #Below is the csv parsing for the users.
 #Passwords are encrypted with the MD5 algorithm.
 require 'digest/md5'
 csv_text = File.read('app\assets\users.txt')
 mycsv = CSV.parse(csv_text, :headers => true, :col_sep => "\t")
 mycsv.each do |row|
-  password = Digest::MD5.hexdigest(row[1])
+  password = Digest::MD5.hexdigest([row[0], REALM, row[1]].join(":"))
   User.create(username: row[0], password: password, email: row[2], preferences: row[3])
 end
 
