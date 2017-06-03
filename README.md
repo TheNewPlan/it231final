@@ -5,23 +5,23 @@ Written by Matt Hallowell
 This is my remote repository to keep track of my final project work.
 
 Deliverables:
-  Users Model [x]
+    Users Model [x]
   
-  Database Seeding [x]
+    Database Seeding [x]
   
-  Custom Forms / Sorting Views [x]
+    Custom Forms / Sorting Views [x]
   
-  Authentication [W.I.P]
+    Authentication [W.I.P]
   
-  User Preferences [W.I.P]
+    User Preferences [W.I.P]
 
 
 TODO:
-  Fix routing errors to allow user creation
+    Fix routing errors to allow user creation
   
-  Fix routing errors to allow users to log in
+    Fix routing errors to allow users to log in
   
-  Verify user inputs are correct
+    Verify user inputs are correct
   
   Time permitting:
   
