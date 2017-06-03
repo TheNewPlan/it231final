@@ -1,17 +1,11 @@
 <p>My name is Matt Hallowell, and this is my final examination webpage.</p>
 <p>Use the above tabs to traverse the webpage.</p>
 <p>New User</p>
+<p>Create New User</P>
 <%= form_tag :action => 'home' do %>
-Username : <%= text_field_tag 'username', @myUser %><br>
-Email : <%= email_field_tag 'email', 'email@example.com'%><br>
-Password: <%= password_field_tag 'password', nil, maxlength: 12 %><br>
-<%= submit_tag 'Create' %>
+    Username:  <%= text_field_tag 'username', @myUser %> <br>
+    Email:     <%= email_field_tag 'email', 'email@example.com'%><br>
+    Password:  <%= password_field_tag 'password', nil, maxlength: 12 %><br>
+    <%= submit_tag 'Create' %>
 
-<% if @myUser > 0 %>
-  <p>New User Created!</p>
-<% elsif @myUser == 0 %>
-  <p>Create a new user</p>
-<% else %>
-  <p>User created failed</p>
-<% end %>
 <% end %>

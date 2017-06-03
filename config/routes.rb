@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   get 'home/login'
   get 'home/logout'
 
+  post 'home/login'
+  post 'home/index'
+
   get 'search/search'
   post 'search/search'
 

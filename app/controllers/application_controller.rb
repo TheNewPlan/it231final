@@ -1,17 +1,12 @@
 REALM = "localhost"
+require 'digest/md5'
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
-
-  before_filter :authorize, except: [:home]
-  protected
-  def authorize
-    userhash = {}
-      allUsers = User.all
-        allUsers.each do |user|
-          userhash.store(user.username,user.password)
-        end
-    authenticate_or_request_with_http_digest(REALM) do |username|
-      userhash[username]
+    before_filter :authorize, except: [:home, :login, :user]
+    protected
+    def authorize
+      unless User.find_by(id: session[:user_id])
+        redirect_to home_login_path, :notice => 'Please log in'
+      end
     end
-  end
 end

@@ -1,0 +1,69 @@
+<h1>Finales</h1>
+<h1 id='notice'><%= notice %></h1>
+<p>Saved Finales</p>
+<% if @myfinales.length > 0 %>
+<%= form_tag :action => 'removeFinales' do %>
+        <table>
+          <thead>
+          <tr>
+            <th>Series</th>
+            <th>Viewership</th>
+            <th>Rating</th>
+            <th>Share</th>
+            <th>Date</th>
+            <th>Network</th>
+            <th colspan="3"></th>
+          </tr>
+          </thead>
+          <tbody>
+          <% @myfinales.each do |finale| %>
+              <tr>
+                <td><%= check_box_tag finale.id, finale.id%></td>
+                <td><%= finale.series %></td>
+                <td><%= finale.viewership %></td>
+                <td><%= finale.rating %></td>
+                <td><%= finale.share %></td>
+                <td><%= finale.date %></td>
+                <td><%= finale.network %></td>
+              </tr>
+          <% end %>
+          </tbody>
+        </table>
+        <%= submit_tag 'Save' %>
+    <% end %>
+<% else %>
+<p>You do not have any saved Finales</p>
+<% end %>
+
+<p>All Finales</p>
+<p>Select favorite finales</p>
+<%= form_tag :action => 'saveList' do %>
+<table>
+  <thead>
+  <tr>
+    <th>Series</th>
+    <th>Viewership</th>
+    <th>Rating</th>
+    <th>Share</th>
+    <th>Date</th>
+    <th>Network</th>
+    <th colspan="3"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @finales.each do |finale| %>
+      <tr>
+        <td><%= check_box_tag finale.id, finale.id %></td>
+        <td><%= finale.series %></td>
+        <td><%= finale.viewership %></td>
+        <td><%= finale.rating %></td>
+        <td><%= finale.share %></td>
+        <td><%= finale.date %></td>
+        <td><%= finale.network %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+<%= submt_tag 'Save' %>
+<% end %>
