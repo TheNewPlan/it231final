@@ -14,8 +14,13 @@ require 'digest/md5'
 csv_text = File.read('app\assets\users.txt')
 mycsv = CSV.parse(csv_text, :headers => true, :col_sep => "\t")
 mycsv.each do |row|
-  password = Digest::MD5.hexdigest([row[0], REALM, row[1]].join(":"))
-  User.create(username: row[0], password: password, email: row[2], preferences: row[3])
+  user = User.new
+  user.username = row[0]
+  user.password = password = Digest::MD5.hexdigest([row[0], REALM, row[1]].join(":"))
+  user.email = row[2]
+  user.preferences = row[3]
+  user.save
+  #User.create(username: row[0], password: password, email: row[2], preferences: row[3])
 end
 
 #Below is the csv parsing for the finales

@@ -77,7 +77,7 @@ class HomeController < ApplicationController
   end
 
   def user
-    @finales = Finales.all
+    @finales = Finale.all
     @myfinales = []
     @finaleIds = nil
 
@@ -92,9 +92,9 @@ class HomeController < ApplicationController
         @finaleIds = nil
       end
 
-    @finaleIds.each do |sid|
-      @myfinales.push(Finale.where('id = ?', sid)[0])
-    end
+      @finaleIds.each do |sid|
+        @myfinales.push(Finale.where('id = ?', sid)[0])
+      end
     end
   end
 
@@ -103,7 +103,7 @@ class HomeController < ApplicationController
     if !session[:saved_finales].nil?
       savedArray = session[:saved_finales]
     end
-    Finales.all.each do |favorite|
+    Finale.all.each do |favorite|
       fav = params[favorite.id.to_s]
       if !fav.nil?
         savedArray.push(favorite.id)
