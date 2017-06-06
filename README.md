@@ -12,21 +12,21 @@ Deliverables:
   
     Custom Forms / Sorting Views [x]
   
-    Authentication [W.I.P]
+    Authentication [x]
   
-    User Preferences [W.I.P]
+    User Preferences [x]
 
 
 TODO:
 
-    Fix routing errors to allow user creation
+    Nothing!
   
-    Fix routing errors to allow users to log in
   
-    Verify user inputs are correct
   
   Time permitting:
   
-    Update CSS
+    Update CSS.
     
-    Fix Bad Dates from DB seeds
+    Fix Bad Dates from DB seeds.
+    
+    Verify no nagging bugs persist.
